@@ -13,14 +13,9 @@ GitHub Branch:      master
 */
 namespace Sober\Intervention;
 
-/**
- * Plugin
- */
-if (!defined('ABSPATH')) {
-    die;
-};
-
-require(file_exists($composer = __DIR__ . '/vendor/autoload.php') ? $composer : __DIR__ . '/dist/autoload.php');
+if(!class_exists('Sober\Intervention\Instance')) {
+    require(__DIR__ . '/dist/autoload.php');
+}
 
 /**
  * Setup $loader object from function intervention
