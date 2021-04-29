@@ -1,24 +1,24 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-develop',
+    'version' => 'dev-develop',
     'aliases' => 
     array (
     ),
-    'reference' => 'b58bd8c17fad6997ce4f3415b769d91284f88961',
+    'reference' => 'ae88728ee88dcaba9fe44388df11455726e7b04c',
     'name' => 'soberwp/intervention',
   ),
   'versions' => 
   array (
     'soberwp/intervention' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-develop',
+      'version' => 'dev-develop',
       'aliases' => 
       array (
       ),
-      'reference' => 'b58bd8c17fad6997ce4f3415b769d91284f88961',
+      'reference' => 'ae88728ee88dcaba9fe44388df11455726e7b04c',
     ),
     'symfony/polyfill-mbstring' => 
     array (
@@ -49,12 +49,12 @@
     ),
     'tightenco/collect' => 
     array (
-      'pretty_version' => 'v7.26.1',
-      'version' => '7.26.1.0',
+      'pretty_version' => 'v8.34.0',
+      'version' => '8.34.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '5e460929279ad806e59fc731e649e9b25fc8774a',
+      'reference' => 'b069783ab0c547bb894ebcf8e7f6024bb401f9d2',
     ),
   ),
 );

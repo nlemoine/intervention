@@ -189,10 +189,11 @@ return array(
     'Tightenco\\Collect\\Support\\Collection' => $vendorDir . '/tightenco/collect/src/Collect/Support/Collection.php',
     'Tightenco\\Collect\\Support\\Enumerable' => $vendorDir . '/tightenco/collect/src/Collect/Support/Enumerable.php',
     'Tightenco\\Collect\\Support\\HigherOrderCollectionProxy' => $vendorDir . '/tightenco/collect/src/Collect/Support/HigherOrderCollectionProxy.php',
-    'Tightenco\\Collect\\Support\\HtmlString' => $vendorDir . '/tightenco/collect/src/Collect/Support/HtmlString.php',
+    'Tightenco\\Collect\\Support\\HigherOrderWhenProxy' => $vendorDir . '/tightenco/collect/src/Collect/Support/HigherOrderWhenProxy.php',
     'Tightenco\\Collect\\Support\\LazyCollection' => $vendorDir . '/tightenco/collect/src/Collect/Support/LazyCollection.php',
     'Tightenco\\Collect\\Support\\Traits\\EnumeratesValues' => $vendorDir . '/tightenco/collect/src/Collect/Support/Traits/EnumeratesValues.php',
     'Tightenco\\Collect\\Support\\Traits\\Macroable' => $vendorDir . '/tightenco/collect/src/Collect/Support/Traits/Macroable.php',
+    'Tightenco\\Collect\\Support\\Traits\\Tappable' => $vendorDir . '/tightenco/collect/src/Collect/Support/Traits/Tappable.php',
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
 );

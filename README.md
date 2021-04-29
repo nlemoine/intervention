@@ -19,7 +19,7 @@ $ wp plugin install https://github.com/soberwp/intervention/archive/master.zip -
 
 #### Requirements
 
-* [PHP](http://php.net/manual/en/install.php) >= 7.0.0
+* [PHP](http://php.net/manual/en/install.php) >=7.2
 
 ## Usage
 
@@ -46,7 +46,7 @@ Remove components from wp-admin.
 
 Return `wp-admin.$role` or `wp-admin.$username`
 
-* Support for multiple user roles using a pipe operator. 
+* Support for multiple user roles using a pipe operator.
     * `editor|author`
 
 ```php
@@ -61,7 +61,7 @@ return [
 
 **User Roles**
 
-* `all` 
+* `all`
 * `all-not-administrator` (shortcut alias)
 * `administrator`
 * `author`

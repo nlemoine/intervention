@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitec65028454448fae02dfcb3bed24949d
+class ComposerStaticInit026757886e011ab23ee72080cb80256d
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -235,10 +235,11 @@ class ComposerStaticInitec65028454448fae02dfcb3bed24949d
         'Tightenco\\Collect\\Support\\Collection' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/Collection.php',
         'Tightenco\\Collect\\Support\\Enumerable' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/Enumerable.php',
         'Tightenco\\Collect\\Support\\HigherOrderCollectionProxy' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/HigherOrderCollectionProxy.php',
-        'Tightenco\\Collect\\Support\\HtmlString' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/HtmlString.php',
+        'Tightenco\\Collect\\Support\\HigherOrderWhenProxy' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/HigherOrderWhenProxy.php',
         'Tightenco\\Collect\\Support\\LazyCollection' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/LazyCollection.php',
         'Tightenco\\Collect\\Support\\Traits\\EnumeratesValues' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/Traits/EnumeratesValues.php',
         'Tightenco\\Collect\\Support\\Traits\\Macroable' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/Traits/Macroable.php',
+        'Tightenco\\Collect\\Support\\Traits\\Tappable' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/Traits/Tappable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
@@ -246,9 +247,9 @@ class ComposerStaticInitec65028454448fae02dfcb3bed24949d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitec65028454448fae02dfcb3bed24949d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitec65028454448fae02dfcb3bed24949d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitec65028454448fae02dfcb3bed24949d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit026757886e011ab23ee72080cb80256d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit026757886e011ab23ee72080cb80256d::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit026757886e011ab23ee72080cb80256d::$classMap;
 
         }, null, ClassLoader::class);
     }

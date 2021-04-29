@@ -13,7 +13,7 @@
   </target>
 
   <target name="composer">
-    <exec passthru="true" checkreturn="false" command="composer update --no-dev --optimize-autoloader --prefer-dist --no-interaction"/>
+    <exec passthru="true" checkreturn="false" command="composer update --prefer-stable --no-dev --optimize-autoloader --prefer-dist --no-interaction"/>
   </target>
 
   <target name="transfer">
